@@ -1,1 +1,17 @@
-aa
+# CY爸爸
+DOMAIN-KEYWORD,cygames
+DOMAIN-KEYWORD,akamaized
+DOMAIN-SUFFIX,priconne-redive.jp
+IP-CIDR,185.151.204.6/22,no-resolve
+
+# 星之海洋：记忆
+DOMAIN-KEYWORD,so-ana
+DOMAIN-SUFFIX,sqex-bridge.jp
+
+# Overhit
+DOMAIN-SUFFIX,ntp.org
+DOMAIN-KEYWORD,nexon
+DOMAIN,nxm-oh-cdn.s3.amazonaws.com
+DOMAIN,in.appcenter.ms
+DOMAIN-KEYWORD,koreacentral
+IP-CIDR,52.231.79.150/16,no-resolve
