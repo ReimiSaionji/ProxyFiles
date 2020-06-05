@@ -29,10 +29,9 @@ dns:
   nameserver:
      - 223.5.5.5
      - 180.76.76.76
-     - 119.29.29.29
-     - 117.50.11.11
-     - 114.114.114.114
-     - https://dns.alidns.com/dns-query
+     - 'https://doh.rixcloud.dev/dns-query'
+     - 'https://47.108.56.233/dns-query'
+     - 'https://118.31.13.131/dns-query'
   fallback:
      - 8.8.8.8
      - 1.1.1.1
