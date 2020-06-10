@@ -28,8 +28,10 @@ dns:
      - localhost.ptlogin2.qq.com
   nameserver:
      - 223.5.5.5
-     - 1.2.4.8
+     - 119.29.29.29
      - 180.76.76.76
+     - 117.50.11.11
+     - https://dns.alidns.com/dns-query
      - https://doh.rixcloud.dev/dns-query
      - https://47.108.56.233/dns-query
      - https://118.31.13.131/dns-query
