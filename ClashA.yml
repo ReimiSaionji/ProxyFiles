@@ -20,16 +20,29 @@ experimental:
 dns:
   enable: true
   ipv6: false
-  listen: 127.0.0.1:2828
+  listen: 0.0.0.0:2828
   enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
-     - '*.lan'
-     - localhost.ptlogin2.qq.com
+    - "*.lan"
+    - localhost.ptlogin2.qq.com
   nameserver:
-  - 119.29.29.29
-  - 119.28.28.28
-  - 1.2.4.8
+    - 223.5.5.5
+    - 119.29.29.29
+    - https://dns.alidns.com/dns-query
+    - https://doh.rixcloud.dev/dns-query
+    - https://47.108.56.233/dns-query
+    - https://118.31.13.131/dns-query
   fallback:
-  - tls://dns.adguard.com:853
-  - tls://1.1.1.1:853
-  - tls://dns.google:853
+    - 8.8.8.8
+    - 1.1.1.1
+    - tls://dns.rubyfish.cn:853
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
+    - https://dns.rubyfish.cn/dns-query
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.google/dns-query
+  fallback-filter:
+    geoip: true
+    ipcidr:
+      - 240.0.0.0/4
