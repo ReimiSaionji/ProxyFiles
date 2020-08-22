@@ -15,3 +15,6 @@ DOMAIN,nxm-oh-cdn.s3.amazonaws.com
 DOMAIN,in.appcenter.ms
 DOMAIN-KEYWORD,koreacentral
 IP-CIDR,52.231.79.150/16,no-resolve
+
+# LoveLive All Stars
+DOMAIN-KEYWORD,klabgames
