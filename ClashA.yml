@@ -18,8 +18,8 @@ dns:
      - 114.114.114.114
      - https://dns.alidns.com/dns-query
   fallback:
-     - 8.8.8.8
      - 1.1.1.1
+     - 8.8.8.8
      - tls://dns.rubyfish.cn:853
      - tls://1.0.0.1:853
      - tls://dns.google:853
