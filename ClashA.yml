@@ -11,9 +11,22 @@ dns:
   listen: '127.0.0.1:2828'
   enhanced-mode: fake-ip
   nameserver:
-    - 223.5.5.5
-    - 119.29.29.29
-    - 119.28.28.28
-  fake-ip-filter:
-    - '*.lan'
-    - localhost.ptlogin2.qq.com
+     - 1.2.4.8
+     - 223.5.5.5
+     - 180.76.76.76
+     - 119.29.29.29
+     - 114.114.114.114
+     - https://dns.alidns.com/dns-query
+  fallback:
+     - 8.8.8.8
+     - 1.1.1.1
+     - tls://dns.rubyfish.cn:853
+     - tls://1.0.0.1:853
+     - tls://dns.google:853
+     - https://dns.rubyfish.cn/dns-query
+     - https://cloudflare-dns.com/dns-query
+     - https://dns.google/dns-query
+  fallback-filter:
+     geoip: true
+     ipcidr:
+       - 240.0.0.0/4
